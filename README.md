@@ -25,7 +25,7 @@ if you like this project, please star it.
       1 - Download cloverHDA.kext as per your Audio ID's 
       2 - Install using EastKextPro or any Kext Installer to /S/L/E
       3 - Now apply patches from cloverHDA.plist to your Clover config.plist
-      4 - Add Layout_ID = 13 , 11 or 12 as described in ReadME.txt (You don't have to do this if using method HDAEnabler or HDEF Patch)
+      4 - Add Layout_ID = 14 as described in ReadME.txt (You don't have to do this if using method HDAEnabler or HDEF Patch)
       5 - Restart 
 
 ### How to apply patches :
@@ -62,7 +62,7 @@ if you like this project, please star it.
 ### Issue/Bug Reporting :
  if you need to fix your codec just [open a ticket on](https://github.com/insanelydeepak/cloverHDA-for-Mac-OS-Sierra-10.14/issues/new)
 
- You must have all files requested in [Troubleshooting](https://github.com/insanelydeepak/cloverHDA-for-Mac-OS-Sierra-10.12/blob/master/TroubleShoot/Troubleshoot%20Reporting.md) 
+ You must have attached debug zip files requested in [Troubleshooting](https://github.com/black-dragon74/OSX-Debug) 
 
 
 ### How to get Codec Dump :
