@@ -1,5 +1,5 @@
 # CloverHDA High Sierra 10.14
-![HDA Icon](https://github.com/insanelydeepak/cloverHDA-for-Mac-OS-Sierra-10.12/blob/master/res/cloverHDA.jpg?raw=true) 
+![HDA Icon](https://github.com/chaiwithcode/cloverHDA-for-Mac-OS-Sierra-10.12/blob/master/res/cloverHDA.jpg?raw=true) 
 
 ___
 
@@ -34,9 +34,9 @@ if you like this project, please star it.
       2 - open cloverHDA.plist , goto KernelAndKextPatches -> KextsToPatch like in below screenshot
       3 - copy all patches to your config.plist (one by one or all once ,its depend on your plist editor)
         
-![Screenshot](https://github.com/insanelydeepak/cloverHDA-for-Mac-OS-Sierra-10.12/blob/master/res/cloverHDAPlist.png?raw=true)
+![Screenshot](https://github.com/chaiwithcode/cloverHDA-for-Mac-OS-Sierra-10.12/blob/master/res/cloverHDAPlist.png?raw=true)
 
-#### Note : for Layout_ID you can use DSDT (HDEF Patch) or Clover (Clover/Config.plist/Devices/Audio/Inject=Audio_ID) or [HDAEnabler's kexts](https://bitbucket.org/insanelydeepak/hdaenablers-applehda-for-hackintosh/downloads)
+#### Note : for Layout_ID you can use DSDT (HDEF Patch) or Clover (Clover/Config.plist/Devices/Audio/Inject=Audio_ID) or [HDAEnabler's kexts]
 
 ### Layout_ID/Audio ID description :
    Use Layout_ID 14 for all desktop and laptop codec's
@@ -45,7 +45,7 @@ if you like this project, please star it.
  please find your codec in repo respective desktop/laptop folder, if not exist feel free to open a issue. 
 
 
-###  [Troubleshooting :](https://github.com/insanelydeepak/cloverHDA-for-Mac-OS-Sierra-10.12/blob/master/TroubleShoot/Troubleshoot%20Reporting.md)
+###  [Troubleshooting :](https://github.com/chaiwithcode/cloverHDA-for-Mac-OS-Sierra-10.12/blob/master/TroubleShoot/Troubleshoot%20Reporting.md)
      
      1.No Audio after installation : basically this happens due to CloverHDA is not loaded or LayoutID is not used either via DSDT(HDEF Patch) or Clover (config.plist) , also make sure that VoodooHDA or AppleALC is not installed.
      2.Headphone/Microphone is not working : you have to use Codec_commander , if still issue exist you need to make custom profil for Codec_commander so it can work with your codec.
@@ -60,7 +60,7 @@ if you like this project, please star it.
    
 
 ### Issue/Bug Reporting :
- if you need to fix your codec just [open a ticket on](https://github.com/insanelydeepak/cloverHDA-for-Mac-OS-Sierra-10.14/issues/new)
+ if you need to fix your codec just [open a ticket on](https://github.com/chaiwithcode/cloverHDA-for-Mac-OS-Sierra-10.14/issues/new)
 
  You must have attached debug zip files requested in [Troubleshooting](https://github.com/black-dragon74/OSX-Debug) 
 
@@ -79,8 +79,3 @@ if you like this project, please star it.
 This kext is based on  [PikeRAlpha's DummyHDA method](https://pikeralpha.wordpress.com/2013/12/17/new-style-of-applehda-kext-patching/) and Clover Patches on fly  method's
 
 PikeRAlpha, Mirone, EmlyDinesh, The king, Master Chief, RevoGirl, toleda, bcc9, TimeWalker and many others who contributed to AppleHDA patching.
-
-## Donation
-If this project help you reduce time to develop, you can give me a cup of coffee :) 
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](http://paypal.me/insanelydeepak)
